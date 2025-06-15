@@ -58,7 +58,7 @@ const TodoForm = () => {
   return (
     <div className="app">
   
-      <img src="../public/todoIcon.svg" alt="" className="logo" />
+      <img src={`${import.meta.env.BASE_URL}todoIcon.svg`} alt="" className="logo" />
       <form onSubmit={addTask} className="inputContaminer">
         <input
           type="text"

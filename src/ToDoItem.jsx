@@ -27,7 +27,7 @@ const TodoItem = ({ task, onToggle, onDelete }) => {
 
         <div className="deleteBtn">
             <button className="deleteBtn" onClick={() => onDelete(task.id)}>
-            <img src="../public/image.svg" alt="Delete" />
+            <img src={`${import.meta.env.BASE_URL}image.svg`} alt="Delete" />
             </button>
         </div>
         

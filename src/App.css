@@ -1,10 +1,7 @@
 body {
   font-family: sans-serif;
-  /* background-color: #13161b ; */
-
-  /* background-color: #3AAFA9; */
-
-  background-image: url('../public/background.svg');
+  
+  background-image: url(${import.meta.env.BASE_URL}background.svg);
   background-repeat: repeat;
   /* background-size: cover; */
   background-color: #eaf6fc;
