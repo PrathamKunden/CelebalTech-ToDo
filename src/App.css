@@ -155,3 +155,9 @@ input {
 }
 
 
+.redirectToRepo{
+  /* text-decoration: none; */
+  bottom: 10px;
+  color: white;
+
+}
